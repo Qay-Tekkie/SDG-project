@@ -36,7 +36,7 @@ body {
     margin: 0 auto;
 }
 
-.jumbotron {
+#header {
     background: url(./farmers-market-1329008.jpg) center center / cover no-repeat;
     height: 400px;
 }
@@ -70,4 +70,18 @@ h2 {
 
 .tab {
     text-indent: 5%;
+}
+
+.contact-phone>a {
+    color: white;
+    display: block;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 100px;
+}
+
+.jumbotron {
+    background: url("./image\ 3.jpg") cover cover / center no-repeat;
 }
