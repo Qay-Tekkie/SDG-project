@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Farm House</title>
+    <link rel="stylesheet" href="./assets/css/lib/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/lib/all.min.js"></script>
+    <script src="./assets/js/lib/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/lib/bootstrap.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-custom sticky-top">
+        <a class="navbar-brand" href="index.html"><img src="./Images/Farm House.png" alt="farm house" width="100px" height="100px" /></a>
+        <button id="toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Apply For
+            </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Fertilizer</a>
+                        <a class="dropdown-item" href="#">Herbicide</a>
+                        <a class="dropdown-item" href="#">Pesticide</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <a href="sign-in.html" class="btn btn-outline-light my-2 my-sm-0">Sign Up</a>
+            <a href="log-in.html" class="btn btn-outline-light my-2 my-sm-0">Log In</a>
+    </nav>
+    <!-- form card register -->
+    <div class="card card-outline-secondary">
+        <div class="card-header">
+            <h3 class="mb-0">Sign Up</h3>
+        </div>
+        <div class="card-body">
+            <form class="form" role="form" autocomplete="off">
+                <div class="form-group">
+                    <label for="inputName">Name*</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Full name">
+                </div>
+                <div class="form-group">
+                    <label for="address">Address*</label>
+                    <input type="text" class="form-control" id="address" placeholder="Billing address or farm address" required="">
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Do you own a farm?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                          Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          No
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Do you want to sell your farm produce to The Farm House?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                          Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          No
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="farm-crops">If Yes, List the Crops you want to sell.</label>
+                    <textarea class="form-control" name="farm-crops" id="" cols="30" rows="10" placeholder="1."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number*</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="000-0000-0000" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3">Email</label>
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3">Password*</label>
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required="">
+                </div>
+                <div class="form-group">
+                    <label for="inputVerify3">Verify*</label>
+                    <input type="password" class="form-control" id="inputVerify3" placeholder="Password (again)" required="">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success btn-lg float-right">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- /form card register -->
+
+    <footer id="footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+            <small>Copyright &copy; 2019</small>
+        </div>
+    </footer>
+</body>
+
+</html>

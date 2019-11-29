@@ -1,0 +1,73 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: lighter;
+}
+
+.navbar-custom {
+    background: #287006;
+}
+
+.navbar-custom .nav-link {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgb(217, 228, 62);
+}
+
+#toggler {
+    color: white;
+}
+
+.btn-outline-light {
+    margin-right: 15px;
+}
+
+.contact {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background: url(./farmers-market-1329008.jpg) center center / cover no-repeat;
+    height: 400px;
+}
+
+#footer {
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 72px;
+}
+
+h2 {
+    color: rgb(247, 252, 249);
+    font-family: fantasy;
+    font-weight: bolder;
+    margin-top: 150px;
+    letter-spacing: 1px;
+    background: rgb(240, 79, 58);
+    border: 1px solid rgb(240, 79, 58);
+}
+
+#about,
+#services {
+    color: black;
+}
+
+.form-control {
+    width: 500px;
+}
+
+.tab {
+    text-indent: 5%;
+}
